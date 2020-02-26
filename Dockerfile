@@ -2,7 +2,7 @@ FROM ubuntu:bionic
 
 #  Setting some labels that describe my container
 LABEL     org.label-schema.name="Hello World" \
-          org.label-schema.description="Simple apache based we" \
+          org.label-schema.description="Simple website hosted on apache" \
           org.label-schema.url="https://github.com/plainenough/slackbot.git" \
           org.label-schema.vendor="example.com" \
           org.label-schema.version="1.0.0"
