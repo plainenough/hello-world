@@ -6,7 +6,7 @@ To demonstrate how to build a simple website in a container.
 
 # Steps for building and running this container
     docker build -t hello-world:latest -f ./Dockerfile .
-    docker run -e -p 80:80 --name hello-world hello-world:latest
+    docker run -d -p 80:80 --name hello-world hello-world:latest
     docker stop hello-world
 
 # Links
